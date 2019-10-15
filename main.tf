@@ -1,14 +1,3 @@
-resource "azurerm_app_service_plan" "cursodevops" {
-  name                = "cursodevops_alex"
-  location            = "West Europe"
-  resource_group_name = "CursoDevOps"
-
-  sku {
-    tier = "Standard"
-    size = "S1"
-  }
-}
-
 resource "azurerm_app_service" "test" {
   name                = "cursodevops_alex"
   location            = "West europe"
